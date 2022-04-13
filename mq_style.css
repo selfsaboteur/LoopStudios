@@ -1,0 +1,218 @@
+@media screen and (max-width: 1000px) {
+    .header__nav {
+        padding: 0px 20px;
+    }
+    .header__title {
+        margin-left: 20px;
+    }
+    .portfolio__header h2 {
+        padding-left: 20px;
+    }
+    .portfolio__header a {
+        margin-right: 20px;
+    }
+    .footer__left {
+        padding-left: 20px;
+    }
+    .footer__right {
+        padding-right: 20px;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    .origin {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 710px;
+    }
+    .origin__text {
+        position: relative;
+        text-align: center;
+        padding: 70px 0px 0px;
+    }
+    .origin img {
+        width: 654px;
+        height: 448px;
+    }
+    .portfolio__links {
+        flex-direction: column;
+        align-items: center;
+    }
+    .desktop__img {
+        display: none;
+    }
+    .portfolio_link {
+        width: 654px;
+    }
+    .portfolio_link img {
+        width: 654px;
+    }
+    .mobile__img {
+        display: block;
+    }
+    .portfolio_link .mobile__img {
+        width: 654px;
+        height: 240px;
+    }
+    .portfolio_link hr {
+        bottom: 0px;
+    }
+}
+
+@media screen and (max-width: 654px) {
+    .header__title {
+        margin: 130px auto 0px;
+        max-width: 400px;
+        padding: 30px;
+        font-size: 28px;
+    }
+    .origin img {
+        max-width: 100%;
+        height: auto;
+    }
+    .portfolio_link {
+        width: 100%;
+    }
+    .portfolio_link img {
+        width: 100%;
+    }
+    .portfolio_link .mobile__img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 610px) {
+    .header__nav .navigation {
+        display: none;
+        text-align: end;
+        height: auto;
+        padding: 30px 0px 30px 0px;
+    }
+    .header__nav .navigation li {
+        margin: 10px;
+    }
+    .header__nav .navigation li a {
+        font-family: 'Josefin Sans', sans-serif;
+        text-transform: uppercase;
+        color: #fff;
+        font-size: 18px;
+        padding-bottom: 8px;
+    }
+    .header__nav .navigation li a:hover {
+        border-bottom: solid #fff 2px;
+    }
+    .header__nav .nav__link::after {
+        display: none;
+    }
+    .header__nav .navigation.show {
+        display: grid;
+        position: absolute;
+        background-color: #111;
+        right: 10px;
+        top: 100px;
+    }
+    .hamburger {
+        height: 100%;
+        display: table;
+        float: right;
+        padding-right: 0px;
+        transition: transform 0.2s linear;
+    }
+    .hamburger:hover {
+        transform: scale(1.2);
+    }
+    .hamburger span {
+        height: 100%;
+        display: table-cell;
+        vertical-align: middle;
+    }
+    .hamburger img {
+        height: 18px;
+    }
+    .origin {
+        height: 610px;
+        margin: 90px 0px;
+    }
+    /* Portfolio */
+    .portfolio__header {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .portfolio__header h2 {
+        padding-left: 0px;
+    }
+    .portfolio__header a {
+        margin-right: 0px;
+        width: 100px;
+        margin: 30px auto 20px;
+    }
+    /* Footer */
+    .inner__footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .footer__left .navigation {
+        display: flex;
+        flex-direction: column;
+        line-height: 24px;
+    }
+    .inner__footer .logo {
+        margin-bottom: 30px;
+    }
+    .footer__right {
+        margin-top: 30px;
+    }
+    .social__logos {
+        float: none;
+        margin-bottom: 0px;
+    }
+    .footer__left {
+        padding-left: 0px;
+    }
+    .inner__footer li {
+        padding: 0px 0px 0px 0px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .origin {
+        height: 580px;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .header__title {
+        margin: 130px auto 0px;
+        max-width: 350px;
+        padding: 20px;
+        font-size: 24px;
+    }
+    .origin__text {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .header__title {
+        margin: 130px auto 0px;
+        max-width: 300px;
+        padding: 10px;
+        font-size: 20px;
+    }
+    .origin {
+        height: 530px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .origin__text {
+        width: 300px;
+    }
+    .origin {
+        height: 570px;
+    }
+}
